@@ -1,4 +1,4 @@
-# program109-2
+# program-C
 109學年度第2學期 程式練習
 
 ## the first week
