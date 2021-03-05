@@ -35,7 +35,7 @@ int main()
 #include <stdio.h>
 int main()
 {
-	int a[9];                       //因陣列是從0開始，在此題我們只需10個值，故在中括號內只需填入9即可
+	int a[10];                     
 	for(int i=0;i<10;i++){
 		scanf("%d",& a[i]);
 	}
