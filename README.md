@@ -79,3 +79,7 @@ int main()
 	printf("%d %d\n",c,d);
 }
 ```
+
+## the second week
+
+### one(
