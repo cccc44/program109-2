@@ -13,16 +13,16 @@ int main()
     int *p=&a[2];
     *p=222;
     printfall();
-    printf("p¤ß¸Ì¤p¯È±ø°Oªº­È¬O:%d\n",p);
+    printf("på¿ƒè£¡å°ç´™æ¢è¨˜çš„å€¼æ˜¯:%d\n",p);
 
     p=p+2;
     *p=666;
     printfall();
-    printf("p¤ß¸Ì¤p¯È±ø°Oªº­È¬O:%d\n",p);
+    printf("på¿ƒè£¡å°ç´™æ¢è¨˜çš„å€¼æ˜¯:%d\n",p);
 
     p--;
     *p=555;
     printfall();
-    printf("p¤ß¸Ì¤p¯È±ø°Oªº­È¬O:%d\n",p);
+    printf("på¿ƒè£¡å°ç´™æ¢è¨˜çš„å€¼æ˜¯:%d\n",p);
 }
 
