@@ -130,3 +130,98 @@ int main()
     printf("n[0]:%d n[1]:%d n[2]:%d\n",n[0],n[1],n[2]);     //輸出結果 n[0]的值先由10變為700，再由700變成400，n[2]的值由30變為300
 }
 ```
+
+## the third week
+正課練習題
+### one
+
+```C
+#include <stdio.h>
+int main()
+{
+    int a[5]={0,10,20,30,40};
+    int *p=&a[2];
+    *p=222;
+
+    p=p+2;
+    *p=666;
+
+    for(int i=0;i<5;i++){
+        printf("a[%d]:%d ",i,a[i]);
+    }
+}
+```
+### two
+
+```C
+#include <stdio.h>
+int a[5]={0,10,20,30,40};
+void printfall()
+{
+    for(int i=0;i<5;i++){
+        printf("%d ",a[i]);
+    }
+    printf("\n");
+}
+int main()
+{
+    printfall();
+    int *p=&a[2];
+    *p=222;
+    printfall();
+
+    p=p+2;
+    *p=666;
+    printfall();
+
+    p--;
+    *p=555;
+    printfall();
+}
+```
+### three
+
+```C
+#include <stdio.h>
+int a[5]={0,10,20,30,40};
+void printfall()
+{
+    for(int i=0;i<5;i++){
+        printf("%d ",a[i]);
+    }
+    printf("\n");
+}
+int main()
+{
+    printfall();
+    int *p=&a[2];
+    *p=222;
+    printfall();
+    printf("p心裡小紙條記的值是:%d\n",p);
+
+    p=p+2;
+    *p=666;
+    printfall();
+    printf("p心裡小紙條記的值是:%d\n",p);
+
+    p--;
+    *p=555;
+    printfall();
+    printf("p心裡小紙條記的值是:%d\n",p);
+}
+```
+### four
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+int a[10];
+int main()
+{
+    int b[10];
+    int *p=(int*)malloc(sizeof(int)*10);
+
+
+    return 0;
+}
+```
