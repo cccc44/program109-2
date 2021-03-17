@@ -134,7 +134,7 @@ int main()
 ## the third week
 正課練習題
 ### one
-
+練習指標p+2
 ```C
 #include <stdio.h>
 int main()
@@ -143,16 +143,16 @@ int main()
     int *p=&a[2];
     *p=222;
 
-    p=p+2;
+    p=p+2;                         //指標p加上n，變為指向a[2+n]
     *p=666;
 
     for(int i=0;i<5;i++){
-        printf("a[%d]:%d ",i,a[i]);
+        printf("a[%d]:%d ",i,a[i]);         //輸出結果 a[2]的值由20變為222，a[4]的值由40變為666
     }
 }
 ```
 ### two
-
+練習指標p--
 ```C
 #include <stdio.h>
 int a[5]={0,10,20,30,40};
@@ -174,13 +174,13 @@ int main()
     *p=666;
     printfall();
 
-    p--;
+    p--;                            //指標p減n，變為指向a[2-n]
     *p=555;
-    printfall();
+    printfall();                    //輸出結果 a[2]的值由20變為222，a[4]的值由40變為666，a[3]的值由30變為555
 }
 ```
 ### three
-
+練習指標、印出p的值
 ```C
 #include <stdio.h>
 int a[5]={0,10,20,30,40};
@@ -211,7 +211,7 @@ int main()
 }
 ```
 ### four
-
+練習malloc函數
 ```C
 #include <stdio.h>
 #include <stdlib.h>
