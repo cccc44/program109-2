@@ -225,3 +225,23 @@ int main()
     return 0;
 }
 ```
+
+## the fourth week
+正課練習題
+
+
+## the fifth week
+正課練習題
+### one
+
+```C
+#include <stdio.h>
+int main()
+{
+    char line1[10]="decline";
+    char line2[10]={'p','r','o','p','e','r','\0'};
+
+    printf("%s\n",line1);
+    printf("%s\n",line2);
+}
+```
