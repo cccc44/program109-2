@@ -229,7 +229,7 @@ int main()
 ## the fourth week
 正課練習題
 ### one
-
+練習結構的宣告、定義
 ```C
 #include <stdio.h>
 struct POINT{
@@ -241,7 +241,7 @@ int main()
 }
 ```
 ### two
-
+練習結構的輸出
 ```C
 #include <stdio.h>
 struct POINT{
@@ -256,7 +256,7 @@ int main()
 }
 ```
 ### three
-
+練習結構(接續上題)
 ```C
 #include <stdio.h>
 struct POINT{
@@ -274,7 +274,7 @@ int main()
 }
 ```
 ### four
-
+練習結構
 ```C
 #include <stdio.h>
 struct DATA{
@@ -295,7 +295,7 @@ int main()
 }
 ```
 ### five
-
+練習結構、陣列、指標
 ```C
 #include <stdio.h>
 struct POINT{
