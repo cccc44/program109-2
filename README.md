@@ -228,7 +228,38 @@ int main()
 
 ## the fourth week
 正課練習題
+### one
 
+```C
+#include <stdio.h>
+struct POINT{
+    float x,y;
+};
+int main()
+{
+    struct POINT a;
+}
+```
+### two
+
+```C
+
+```
+### three
+
+```C
+
+```
+### four
+
+```C
+
+```
+### five
+
+```C
+
+```
 
 ## the fifth week
 正課練習題
