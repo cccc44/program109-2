@@ -450,7 +450,7 @@ CPE一顆星UVA10420 List of Conquests
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-char name[2000][75];
+char name[2000][75];                                     //有2000行(橫)，一行有75個
 char others[75];
 int compare( const void *p1,const void *p2)
 {
