@@ -523,3 +523,8 @@ int main()
 	}
 }
 ```
+
+## the tenth week
+正課練習題
+## one
+CPE一顆星UVA10226 Hardwood species
