@@ -528,10 +528,10 @@ int main()
 正課練習題
 ### one
 CPE一顆星UVA10226 Hardwood species(先把資料讀進來)
-```
+```C
 #include <stdio.h>
 #include <string.h>
-char line[1000];
+char line[1000];                                                     //line陣列內是樹的名稱(不會進行排序)，亦代表輸入幾行
 int main()
 {
 	int T;
@@ -549,7 +549,7 @@ int main()
 ```
 ### two
 CPE一顆星UVA10226 Hardwood species(利用正確位置的 N++  數出正確的樹數目)
-```
+```C
 #include <stdio.h>
 #include <string.h>
 char line[1000];
@@ -568,15 +568,14 @@ int main()
         printf("======分隔線======\n");
 	}
 }
-
 ```
 ### three
 CPE一顆星UVA10226 Hardwood species(陣列 tree 裡面放樹的名字, 最後印出來, 確認沒有錯)
-```
+```C
 #include <stdio.h>
 #include <string.h>
 char line[1000];
-char tree[1000000][32];
+char tree[1000000][32];                                       //tree陣列裡是樹的名稱(會進行排序)
 int main()
 {
 	int T;
@@ -600,7 +599,7 @@ int main()
 ```
 ### four
 CPE一顆星UVA10226 Hardwood species(qsort() 配合你的 compare() 來把樹名排序)
-```
+```C
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -622,9 +621,8 @@ int main()
 			N++;
 		}
 		printf("有幾棵樹? %d\n",N);
-		qsort(tree,N,32,compare);
+		qsort(tree,N,32,compare);                            //替tree陣列排序，由A至Z
 		for(int i=0;i<N;i++){
-
 				printf("%s\n",tree[i]);
 		}
 		printf("======分隔線======\n");
@@ -635,7 +633,7 @@ int main()
 ```
 ### five
 CPE一顆星UVA10226 Hardwood species(印出答案, 分成for迴圈前面開頭, for迴圈中間 {收尾+開頭} for迴圈後面收尾)
-```
+```C
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -674,7 +672,7 @@ int main()
 ```
 ### six
 CPE一顆星UVA10226 Hardwood species(最終版)
-```
+```C
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
