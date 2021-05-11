@@ -779,7 +779,19 @@ int main()
 ### three
 複習struct結構
 ```C
+#include <stdio.h>
+struct data{
+    int ans;
+    char c;
+};
+struct data box;
+int main()
+{
+    box.ans=1;
+    box.c='A';
 
+    printf("%c %d\n",box.c,box.ans);
+}
 ```
 ### four
 續上題，將struct改用typedef讓type name短一點
