@@ -796,7 +796,19 @@ int main()
 ### four
 續上題，將struct改用typedef讓type name短一點
 ```C
+#include <stdio.h>
+typedef struct data{
+    int ans;
+    char c;
+}DATA;
+DATA box;
+int main()
+{
+    box.ans=1;
+    box.c='A';
 
+    printf("%c %d\n",box.c,box.ans);
+}
 ```
 ### five
 CPE一顆星UVA10062 Tell me the frequencies!( 僅含step01 讀資料，step02 印資料 )
