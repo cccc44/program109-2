@@ -813,10 +813,38 @@ int main()
 ### five
 CPE一顆星UVA10062 Tell me the frequencies!( 僅含step01 讀資料，step02 印資料 )
 ```C
-
+#include <stdio.h>
+char line[2000];
+int main()
+{
+	for(int t=0;gets(line);t++){
+		if(t>0) printf("\n");
+		printf("blahlblahblah\n");
+		printf("blahlblahblah\n");
+		printf("blahlblahblah\n");
+	}
+}
 ```
 ### six
 CPE一顆星UVA10062 Tell me the frequencies!( step03 用ans[]來存答案，step04 字串的迴圈來統計，step05 印出來 )
 ```C
-
+#include <stdio.h>
+char line[2000];
+int ans[256];
+int main()
+{
+	for(int t=0;gets(line);t++){
+		for(int i=0;i<256;i++){
+			ans[i]=0;
+		}
+		for(int i=0;line[i]!=0;i++){
+			char c = line[i];
+			ans[c]++;
+		}
+		if(t>0) printf("\n");
+		for(int i=0;i<256;i++){
+			if(ans[i]>0) printf("%d %d\n",i,ans[i]);
+		}
+	}
+}
 ```
