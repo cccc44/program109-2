@@ -713,32 +713,32 @@ int main()
 ## the eleventh week
 正課練習題
 ### one
-
+練習qsort() 及 compare()
 ```C
 
 ```
 ### two
-
+CPE一顆星UVA10420 List of Conquests( compare()的另一種寫法 )
 ```C
 
 ```
 ### three
-
+複習struct結構
 ```C
 
 ```
 ### four
-
+續上題，將struct改用typedef讓type name短一點
 ```C
 
 ```
 ### five
-
+CPE一顆星UVA10062 Tell me the frequencies!( 僅含step01 讀資料，step02 印資料 )
 ```C
 
 ```
 ### six
-
+CPE一顆星UVA10062 Tell me the frequencies!( step03 用ans[]來存答案，step04 字串的迴圈來統計，step05 印出來 )
 ```C
 
 ```
