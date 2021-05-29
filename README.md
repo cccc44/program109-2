@@ -1129,7 +1129,7 @@ void draw(){
 ```
 ### six
 Processing時間倒數器練習--step06 把總秒數 像找零錢方法 利用 取餘數 算出時、分、秒
-```C
+```J
 void setup(){
   size(1024,400);
   textFont( createFont("標楷體",50));
