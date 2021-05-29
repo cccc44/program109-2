@@ -1149,6 +1149,144 @@ void draw(){
  text("還剩下:"+hh+":"+mm+":"+ss,100,300);
 }
 ```
+實習課練習題
+### one(advance)
+求11 +22+33+…+nn
+輸入 整數n
+輸出 計算出11+22+33+…+nn的值
+```C
+#include <stdio.h>
+int main()
+{
+	int n,ans=0;
+	scanf("%d",&n);
+	for(int i=1;i<=n;i++){
+		ans+=((i*10)+i);
+	}
+	printf("%d",ans);
+}
+```
+### two(advance)
+
+```C
+#include<iostream>
+using namespace std;
+int GCD(int a, int b){
+	int ans=0;
+	for(int i=1;i<=b;i++){
+  		if( a%i==0 && b%i==0 ){
+  			ans=i;
+  		}
+  	}
+  	return ans;
+}
+int main(){
+  int a,b;cin>>a>>b;
+  cout<<GCD(a,b)<<endl;
+  return 0;
+}
+```
+### three(advance)
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a[10];
+	for(int i=0;i<10;i++){
+		scanf("%d",&a[i]);
+	}
+	int min=a[0],ans=0;
+	for(int i=0;i<10;i++){
+		if(a[i]<=min){
+		min=a[i];
+		ans=i+1;
+		}
+	}
+	int ans2=60*60*1.2/min;
+	printf("%d %d",ans,ans2);
+}
+```
+### four(advance)
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a[10];
+	for(int i=0;i<10;i++){
+		scanf("%d",&a[i]);
+	}
+	for(int i=0;i<10;i++){
+		for(int j=i+1;j<10;j++){
+			if(a[i]<a[j]){
+				int temp=a[i];
+				a[i]=a[j];
+				a[j]=temp;
+			}
+		}
+	}
+	for(int i=0;i<10;i++){
+		printf("%d ",a[i]);
+	}
+}
+```
+### five(base)
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n,sum=0;
+	scanf("%d",&n);
+	for(int i=1;i<=n;i++){
+		sum=sum+(i*i);
+	}
+	printf("%d",sum);
+}
+```
+### six(advance)
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a,b,sum=0;
+	scanf("%d%d",&a,&b);
+	for(int i=a;i<=b;i++){
+		if( (i%3)==0 ) sum+=i;
+	}
+	printf("%d",sum);
+}
+```
+### seven(base)
+
+```C
+#include <stdio.h>
+int main()
+{
+	int x,y;
+	scanf("%d%d",&x,&y);
+	if( x>0 && y>0 ) printf("1\n");
+	if( x<0 && y>0 ) printf("2\n");
+	if( x<0 && y<0 ) printf("3\n");
+	if( x>0 && y<0 ) printf("4\n");
+}
+```
+### eight(base)
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n,sum=0;
+	scanf("%d",&n);
+	for(int i=1;i<=n;i++){
+		if( n%i==0 ) sum+=i;
+	}
+	printf("%d",sum);
+}
+```
 
 ## the fourteenth week
 正課練習題
