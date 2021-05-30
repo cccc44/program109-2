@@ -1151,8 +1151,8 @@ void draw(){
 ```
 實習課練習題
 ### one(advance)
-求11 +22+33+…+nn
-輸入 整數n
+求11 +22+33+…+nn  
+輸入 整數n  
 輸出 計算出11+22+33+…+nn的值
 ```C
 #include <stdio.h>
@@ -1167,7 +1167,9 @@ int main()
 }
 ```
 ### two(advance)
-
+求兩數之最大公因數 請自定義一個能找出兩數之最大公因數的函式  
+輸入 a,b兩數  
+輸出 求兩數之最大公因數
 ```C
 #include<iostream>
 using namespace std;
@@ -1187,7 +1189,9 @@ int main(){
 }
 ```
 ### three(advance)
-
+區間測速-超速之王 區間長度1.2公里  
+輸入 10個整數(是10輛車通過的秒數)  
+輸出 第幾輛車是最快的，並把它的時速印出來(只印整數部分，小數部分無條件捨去)
 ```C
 #include <stdio.h>
 int main()
@@ -1208,7 +1212,9 @@ int main()
 }
 ```
 ### four(advance)
-
+10數排序，從大到小排好  
+輸入 10個數字  
+輸出 把它們從大到小排好
 ```C
 #include <stdio.h>
 int main()
@@ -1232,7 +1238,9 @@ int main()
 }
 ```
 ### five(base)
-
+正整數平方總和  
+輸入 正整數n  
+輸出 1* 1+2* 2+...+n* n之總和
 ```C
 #include <stdio.h>
 int main()
@@ -1246,7 +1254,10 @@ int main()
 }
 ```
 ### six(advance)
-
+兩數之間3的倍數之總和  
+輸入 兩個由小到大的正整數(起始數字與終止數字)  
+輸出 可計算出起始數字到中止數字間所有3的倍數之總和  
+例如 3 9 => 3+6+9=18
 ```C
 #include <stdio.h>
 int main()
@@ -1260,7 +1271,9 @@ int main()
 }
 ```
 ### seven(base)
-
+判斷座標的象限  
+輸入 兩數(x座標與y座標)  
+輸出 判斷所輸入座標的所在象限(僅考慮在四個象限的情況，不考慮在軸線及原點的情況)
 ```C
 #include <stdio.h>
 int main()
@@ -1274,7 +1287,9 @@ int main()
 }
 ```
 ### eight(base)
-
+求n之所有因數和  
+輸入 一正整數n  
+輸出 n之所有因數和
 ```C
 #include <stdio.h>
 int main()
