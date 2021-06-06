@@ -1771,3 +1771,36 @@ int main()
 	printf("%d",ans);
 }
 ```
+
+## the fifteenth week
+正課練習題
+### one
+
+```C
+
+```
+### two
+
+```C
+
+```
+### three
+
+```C
+
+```
+### four
+
+```C
+
+```
+### five
+
+```C
+
+```
+### six
+
+```C
+
+```
