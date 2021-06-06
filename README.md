@@ -1857,5 +1857,13 @@ void mousePressed(){
 ### six
 Processing--step06 新增程式頁面,切換成p5 js模式,利用 MaKey教授的網頁,將processing to p5 js converter轉換,貼上,執行,就會開網頁
 ```C
-
+function setup(){
+ createCanvas(400,200);
+ textSize(40);
+}
+function draw(){
+  background(128,158,182);
+  let s=second();
+  text(s,100,100);
+}
 ```
