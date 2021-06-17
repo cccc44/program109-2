@@ -1949,3 +1949,21 @@ int main()
 	}
 }
 ```
+
+## the sixteenth week
+正課練習題
+### one
+
+```C
+
+```
+### two
+
+```C
+
+```
+### three
+
+```C
+
+```
