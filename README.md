@@ -2116,3 +2116,26 @@ function draw(){
  text(v,200,150);//印出轉動的速度
 }
 ```
+
+## the seventeenth week
+正課練習題
+### one
+
+```C
+
+```
+### two
+
+```C
+
+```
+### three
+
+```C
+
+```
+### four
+
+```C
+
+```
